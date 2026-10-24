@@ -22,7 +22,7 @@ def load_images():
 class ChessGUI:
     def __init__(self, master):
         self.master = master
-        master.title("My Alpha-Beta Chess Engine")
+        master.title("Kothapalli's Alpha-Beta Chess Engine")
         
         self.canvas = tk.Canvas(master, width=640, height=640)
         self.canvas.pack()
